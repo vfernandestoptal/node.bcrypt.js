@@ -29,7 +29,6 @@
     "install": "node-pre-gyp install --fallback-to-build"
   },
   "dependencies": {
-    "@mapbox/node-pre-gyp": "github:vfernandestoptal/node-pre-gyp#revert-node-pre-gyp",
     "node-addon-api": "^5.0.0",
     "node-pre-gyp": "github:vfernandestoptal/node-pre-gyp#revert-node-pre-gyp"
   },
