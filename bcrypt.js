@@ -1,6 +1,6 @@
 "use strict";
 
-var nodePreGyp = require("node-pre-gyp");
+var nodePreGyp = require("@mapbox/node-pre-gyp");
 var path = require("path");
 var binding_path = nodePreGyp.find(
     path.resolve(path.join(__dirname, "./package.json"))
